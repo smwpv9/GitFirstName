@@ -22,6 +22,7 @@ int main(void)
 			printf("The number cannot be negative.\n");
 	}
 	printf("A circle with radius %d has an area of %.2f\n", radius, pi*pow(radius,2.0));
+	printf("A circle with radius %d has a circumference of %.2f\n", radius, pi*2*(float)radius);
 	return 0;
 }
 
