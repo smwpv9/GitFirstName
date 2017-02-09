@@ -23,6 +23,7 @@ int main(void)
 	}
 	printf("A circle with radius %d has an area of %.2f\n", radius, pi*pow(radius,2.0));
 	printf("A circle with radius %d has a circumference of %.2f\n", radius, pi*2*(float)radius);
+	printf("WE are done and possibly good coders\n");
 	return 0;
 }
 
